@@ -760,6 +760,11 @@
   dependencies:
     "@types/unist" "^2"
 
+"@types/node@^18.0.0":
+  version "18.17.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.8.tgz#fd69eb04c25d50374245e8bd69ba29dd0eb7ff5e"
+  integrity sha512-Av/7MqX/iNKwT9Tr60V85NqMnsmh8ilfJoBlIVibkXfitk9Q22D9Y5mSpm+FvG5DET7EbVfB40bOiLzKgYFgPw==
+
 "@types/parse5@^6.0.0":
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/@types/parse5/-/parse5-6.0.3.tgz#705bb349e789efa06f43f128cef51240753424cb"
@@ -881,6 +886,14 @@ astring@^1.8.0:
   version "1.8.6"
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.8.6.tgz#2c9c157cf1739d67561c56ba896e6948f6b93731"
   integrity sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==
+
+astro-auto-import@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/astro-auto-import/-/astro-auto-import-0.3.1.tgz#0a444be679f8a02623bca95b1f1144550144e9b7"
+  integrity sha512-4kXZMlZFiq3dqT6fcfPbCjHTABQ279eKbIqZAb6qktBhGlmHwpHr1spOUFj/RQFilaWVgfjzOBmuZnoydZb5Vg==
+  dependencies:
+    "@types/node" "^18.0.0"
+    acorn "^8.8.0"
 
 astro@^2.10.12:
   version "2.10.12"
