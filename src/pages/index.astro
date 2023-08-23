@@ -1,5 +1,8 @@
 ---
+import { getEntry } from "astro:content"
 
+const article = await getEntry("test", "test")
+const { Content } = await article.render()
 ---
 
 <html lang="en">
@@ -11,6 +14,6 @@
     <title>Astro</title>
   </head>
   <body>
-    <h1>Astro</h1>
+    <Content />
   </body>
 </html>
