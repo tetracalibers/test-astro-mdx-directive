@@ -8,6 +8,7 @@ import { makeComponentNode } from "./utils/makeComponentNode"
 
 const AsideTagname = "AutoImportedAside"
 export const asideAutoImport: Record<string, [string, string][]> = {
+  // パスは「./」始まりでなければならない
   "./src/components/Aside.astro": [["default", AsideTagname]]
 }
 
