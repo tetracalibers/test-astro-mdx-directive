@@ -11,6 +11,7 @@
     "format": "prettier --write --plugin prettier-plugin-astro ."
   },
   "dependencies": {
+    "@astrojs/mdx": "^0.19.7",
     "astro": "^2.10.12",
     "mdast-util-mdx-jsx": "^3.0.0",
     "remark-directive": "^2.0.1",
