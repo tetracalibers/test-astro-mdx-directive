@@ -11,7 +11,10 @@
     "format": "prettier --write --plugin prettier-plugin-astro ."
   },
   "dependencies": {
-    "astro": "^2.10.12"
+    "astro": "^2.10.12",
+    "mdast-util-mdx-jsx": "^3.0.0",
+    "remark-directive": "^2.0.1",
+    "unist-util-remove": "^4.0.0"
   },
   "devDependencies": {
     "prettier": "^3.0.2",
